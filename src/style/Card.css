@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+  box-sizing: border-box;
+}
+
+.main {
+  height: 45rem;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  width: 30rem;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 100px #5a5a5a, -5px -5px 100px #ffffff;
+  /* border: 2px solid red  */
+}
+
+.card img{
+    width: 10rem;
+}
+
+.repos a{
+    padding: 5px;
+    text-decoration: none;
+    /* background-color: yellow; */
+   color:rgb(255, 0, 0);
+    
+    
+  
+  }
+
+  .repos{
+    overflow: auto;
+    height: 10rem;
+    width: 23rem;
+    border: 2px dotted red;
+
+  }
+
+.repos a:hover{
+    text-decoration: underline;
+}
+
+.card-body h5{
+  text-align: center;
+  color: red;
+  font-family: cursive;
+  font-size:x-large;
+  font-weight: bold;
+}
+
+
+
+.card-body .bio{
+  color: blue;
+  font-size: large;
+}
+
+.card-body .follo{
+  background-color: rgb(255, 196, 0);
+  
+}
+ 
+.card-body .ollowing{
+  background-color:rgb(255, 196, 0);
+}
+
+.card-body .reposs{
+  background-color: rgb(255, 196, 0);
+}
+.card-body .follower{
+  text-align: center;
+}
+
+.card-text .url{
+  font-weight: bold;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
